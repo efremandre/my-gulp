@@ -1,5 +1,8 @@
-<img height="257" width="114" src="https://user-images.githubusercontent.com/25119216/200695956-17be5264-faef-424d-af7b-d4776bc86d41.png" style="display: block; margin: 0 auto;">
-<p style="width: 100px; margin: 0 auto;" >My build Gulp</p>
+<p align="center">
+  <img width="124" height="267" src="https://user-images.githubusercontent.com/25119216/200695956-17be5264-faef-424d-af7b-d4776bc86d41.png">
+  <br/>
+  <i>My build Gulp</i>
+</p>
 
 Сборку буду дополнять или изменять по мере необходимости.
 
