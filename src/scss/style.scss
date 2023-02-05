@@ -1,28 +1,14 @@
-@use '../../node_modules/normalize.css/normalize';
+@use './base/variable' as var;
+@use '../../node_modules/normalize.css/normalize.css';
+@use '../../node_modules/swiper/swiper-bundle.min.css';
 @use './fonts.scss';
-@use './header.scss';
-@use './main.scss';
-@use './footer.scss';
-@use './media-query.scss';
-
-html,
-body {
-	height: 100%;
-	font-family: 'Roboto', sans-serif;
-	color: #fff;
-}
-
-.wrapper {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-}
-
-.container {
-	max-width: 1400px;
-	margin: 0 auto;
-}
-
-h2 {
-	text-align: center;
-}
+@use 'global-style';
+@use './modules/scroll-animation';
+@use './modules/scrollbar';
+@use './modules/button-up';
+@use './modules/general-button';
+@use './modules/subtitle';
+@use './layout/header';
+@use './index/main';
+@use './layout/footer';
+@use 'responsive';
