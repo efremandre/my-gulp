@@ -6,7 +6,9 @@
 
 }
 
-@media screen and (max-width: 989.98px) {}
+@media screen and (max-width: 989.98px) {
+
+}
 
 @media screen and (max-width: 769.98px) {
   .navigation {
@@ -52,236 +54,73 @@
       }
     }
   }
+
+  .contact {
+
+    &__wrapper {
+      flex-wrap: wrap;
+    }
+
+    &__contact-block {
+      flex: 0 1 100%;
+    }
+
+    &__map-block {
+      flex: 0 1 100%;
+      margin-bottom: 20px;
+    }
+  }
 }
 
 @media screen and (max-width: 569.98px) {
-  .header {
+  .container {
+    padding: 0 1em;
+  }
 
-    &__navigation {
-    }
-
+  .logo {
+    width: 60px;
   }
 
   .navigation {
-
-    &__wrapper {
-
-    }
-
-    &__logo {
-
-    }
-
-    &__logo-link {
-
-    }
-
-    &__nav {
-    }
-
     &__phone {
       display: none;
-    }
-
-    &__icon {
-    }
-
-    &__link {
-
     }
   }
 
   .fullscreen {
-    background: #ccc url('../assets/images/bg-mob-fullscreen.jpg') top center / cover no-repeat;
-
-    &__wrapper {
-      position: relative;
-      z-index: 2;
+    &__buttons {
       width: 100%;
-    }
-  }
-
-  .button-dawn {
-    &__btn {
-      &:after {
-        background: url("../assets/images/icon/arrow-down-hover.svg") center center / contain no-repeat;
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 320px) {
-
-  .container {
-    padding: 0 0.5em;
-  }
-
-  .price {
-
-    &__subtitle {
-    }
-
-    &__grid {
-
-    }
-
-    &__cart {
-
-    }
-
-    &__title {
-
-    }
-
-    &__description-wrapper {
-      padding: 0;
-    }
-
-    &__description {
-      padding: 1em 1em 1em 1.7em;
-    }
-
-    &__list {
-
-      & > li {
-
-      }
-    }
-
-    &__other-description {
-
-      & > p {
-
-      }
-
-      & > p:last-child {
-
-      }
+      gap: 15px;
     }
 
     &__button {
 
     }
+  }
 
-    &__button-btn {
-      max-width: 100%;
+  .contact {
+    &__map {
+      height: 400px;
     }
+  }
+}
+
+@media screen and (max-width: 429.98px) {
+  .fullscreen {
+
+    &__buttons {
+      align-items: start;
+      flex-direction: column;
+    }
+  }
+}
+
+@media screen and (max-width: 319.98px) {
+  .container {
+    padding: 0 0.5em;
   }
 }
 
 @media (any-hover: none) and (orientation: landscape) {
-  .navigation {
-    opacity: 1;
-    &__wrapper {
-      justify-content: space-between;
-    }
 
-    &__logo {
-
-    }
-
-    &__logo-link {
-    }
-
-    &__block {
-      @include mix.displayFlex(flex, start, center);
-      gap: 0 20px;
-    }
-
-    &__phone {
-      padding: 0;
-    }
-
-    &__icon {
-    }
-
-    &__link {
-
-    }
-  }
-
-  .main__fullscreen {
-    padding-top: 0;
-  }
-
-  .fullscreen {
-    min-height: 100vh;
-    background-attachment: scroll;
-    &:before {
-
-    }
-
-    &__wrapper {
-      min-height: 100%;
-    }
-
-    &__main-title {
-
-      & > span {
-
-      }
-    }
-
-    &__subtitle {
-
-    }
-
-    &__buttons {
-      flex-direction: row;
-    }
-
-    &__button {
-
-    }
-
-    &__button_black {
-
-    }
-  }
-
-  .about-me {
-
-    &__wrapper {
-      justify-content: start;
-      flex-direction: row;
-      min-height: 100vh;
-      gap: 20px;
-    }
-
-    &__subtitle {
-
-    }
-
-    &__text {
-
-
-      &>p {
-        &:last-child {
-
-        }
-      }
-    }
-
-    &__list {
-
-      &>li {
-      }
-    }
-
-    &__button {
-
-    }
-
-    &__image {
-      flex: 0 1 50%;
-      &>img {
-        height: 100%;
-        max-width: 100%;
-      }
-    }
-  }
-
-  .portfolio {
-    background-attachment: scroll;
-  }
 }
